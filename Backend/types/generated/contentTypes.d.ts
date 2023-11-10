@@ -384,8 +384,8 @@ export interface ApiGoalGoal extends Schema.CollectionType {
     > &
       Attribute.DefaultTo<'Todo'>;
     date: Attribute.Date;
-    from: Attribute.Time;
-    to: Attribute.Time;
+    from: Attribute.DateTime;
+    to: Attribute.DateTime;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

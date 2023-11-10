@@ -31,7 +31,7 @@ const EditGoal = () => {
     const formUserInput = {
       title: title,
     };
-    // setFormInput(formUserInput);
+  // setFormInput(formUserInput);
 
     try {
       const res = await axios.put(`http://localhost:1337/api/goals/${goalId}`, {

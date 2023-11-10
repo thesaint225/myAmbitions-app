@@ -1,4 +1,3 @@
-import React from "react";
 import { useState, useEffect } from "react";
 import GoalItem from "../Component/goalItem";
 import axios from "axios";

@@ -31,10 +31,10 @@
       "type": "date"
     },
     "from": {
-      "type": "time"
+      "type": "datetime"
     },
     "to": {
-      "type": "time"
+      "type": "datetime"
     }
   }
 }
